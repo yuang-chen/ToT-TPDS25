@@ -4,7 +4,7 @@ This repository contains the implementation of ToT, an triangle counting algorit
 
 
 ### Warning
-This implementation utilizes Tensor Cores with 16-bit `half` type, which may introduce precision errors during count summation, particularly with large graphs.  Using the `-e 1` flag to extract the upper triangular portion of the can mitigate precision problems in some cases.
+This implementation utilizes Tensor Cores with 16-bit `half` type, which may introduce precision errors during count summation, particularly with large graphs.  Using the `-e 1` flag to extract the upper triangular portion of the graph can mitigate precision problems in some cases.
 
 
 ## Requirements
