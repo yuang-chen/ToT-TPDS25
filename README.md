@@ -43,11 +43,14 @@ Example command:
 
 If you use this code in your research, please cite:
 ```bibtex
-@inproceedings{chen2025triangle,
-  title={Triangle Counting on Tensor Cores},
+@ARTICLE{11153046,
   author={Chen, YuAng and Yu, Jeffrey Xu},
-  booktitle={Proceedings of the 30th ACM SIGPLAN Annual Symposium on Principles and Practice of Parallel Programming},
-  pages={560--562},
-  year={2025}
-}
+  journal={IEEE Transactions on Parallel and Distributed Systems}, 
+  title={ToT: Triangle Counting on Tensor Cores}, 
+  year={2025},
+  volume={36},
+  number={12},
+  pages={2679-2692},
+  keywords={Tensors;Sparse matrices;Graphics processing units;Instruction sets;Registers;Optimization;Linear algebra;Clustering algorithms;Buildings;Training;GPUs;graph analytics;parallel computing},
+  doi={10.1109/TPDS.2025.3606878}}
 ```
